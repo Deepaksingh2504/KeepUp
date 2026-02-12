@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  
+  <link rel="stylesheet" href="newspaper.css">
+</head>
+<body>
+
+
+  <div class="header">
+    
+    <div id="part1">
+      <div id="part11">KeepUp</div>
+
+      <div id="part12">
+        <input type="text" placeholder=" Search here " id="userInput">
+      </div>
+
+      <div id="part13">
+        <button id="part13-button">🌙</button>
+      </div>
+    </div>
+
+    <div id="part2">
+  <a data-section="all" class="nav-link active">Home</a>
+  <a data-section="world" class="nav-link">World</a>
+  <a data-section="business" class="nav-link">Business</a>
+  <a data-section="technology" class="nav-link">Tech</a>
+  <a data-section="sport" class="nav-link">Sport</a>
+  <a data-section="politics" class="nav-link">Politics</a>
+  <a data-section="money" class="nav-link">Money</a>
+  <a data-section="film" class="nav-link">Film</a>
+  
+</div>
+
+
+  </div>
+
+
+
+  <div class="section">
+
+    <div id="section-part1">
+      <div id="section-part1-greeting">
+        <span id="wish">Good morning</span> - here's what's happening
+      </div>
+      <div id="section-part1-day">
+        Today • <span id="day">Monday</span>, <span id="date">10</span> <span id="month">February</span>
+      </div>
+    </div>
+    
+    <div id="weather">
+     
+      <div id="weather-emoji"></div>
+      <div id="weather-info">
+        <div id="location"></div>
+        <div id="temperature"></div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <div class="main">
+
+
+    <div id="top-stories">
+
+      <p id="top">Top stories</p>
+
+      <div id="article-top">
+        <div class="headline"></div>
+        <img class="image">
+        <a class="description"></a>
+
+        <div class="category-time">
+          <div class="category"></div>
+          <div class="time"></div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+    <div id="picks-for-you">
+      <h2 class="section-title">Picks for you</h2>
+     
+    </div>
+
+  </div>
+
+
+  
+  <div class="article" id="article-template" style="display:none;">
+    <div class="content">
+      <div class="category-time">
+        <div class="category"></div>
+        <div class="time"></div>
+      </div>
+
+      <div class="headline"></div>
+
+      <div class="description">
+        <a class="detailedinfo"></a>
+      </div>
+    </div>
+
+    <img class="image">
+  </div>
+
+
+
+
+
+<div id="article-modal">
+
+  <span id="close-modal">&times;</span>
+
+  <div class="modal-content">
+    <div class="modal-scroll">
+
+      <img id="modal-image">
+      <h1 id="modal-title"></h1>
+      <p id="modal-category"></p>
+      <p id="modal-description"></p>
+
+    </div>
+  </div>
+
+</div>
+
+
+
+  <script src="newspaper.js"></script>
+
+
+</body>
+</html>
