@@ -606,67 +606,154 @@ body.dark-mode #part13-button {
 }
 @media (max-width: 600px) {
 
-  body {
-    padding-top: 170px;
-  }
 
 
-  #part1 {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 12px;
-    margin-top: 10px;
-  }
+body {
+ padding-top: 250px;
+}
 
 
-  #part11 {
-    width: 100%;
-    text-align: center;
-    margin-left: 0;
-  }
 
- 
-  #part12 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
+.header {
+  min-height: auto;
+  padding-bottom: 15px;
+}
 
-  #userInput {
-    width: 100%;
-    max-width: 100%;
-    font-size: 16px;
-  }
+#part1 {
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 10px;
+}
 
-  
-  #part2 {
-    flex-wrap: wrap;
-    gap: 12px;
-    font-size: 14px;
-    justify-content: center;
-  }
+#part11 {
+  font-size: 32px;
+  margin-left: 0;
+  text-align: center;
+}
 
- 
-  #section-part1-greeting {
-    font-size: 22px;
-  }
+#part12 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
-  #section-part1-day {
-    font-size: 14px;
-  }
+#userInput {
+  width: 100%;
+  max-width: 100%;
+  font-size: 16px;
+}
 
- 
-  #weather {
-    width: 100%;
-    justify-content: center;
-  }
+#part13 {
+  display: flex;
+  justify-content: center;
+}
 
-  #weather-emoji {
-    font-size: 40px;
-  }
 
-  #temperature {
-    font-size: 24px;
-  }
+
+#part2 {
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 14px;
+  justify-content: center;
+}
+
+
+
+.section {
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+#section-part1-greeting {
+  font-size: 22px;
+}
+
+#section-part1-day {
+  font-size: 14px;
+}
+
+#weather {
+  width: 100%;
+  justify-content: center;
+}
+
+#weather-emoji {
+  font-size: 40px;
+}
+
+#temperature {
+  font-size: 24px;
+}
+
+
+
+.main {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 30px !important;
+}
+
+
+#picks-for-you {
+  margin-top: 20px;
+  border-left: none;
+  padding-left: 0;
+}
+
+
+
+.article {
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  gap: 15px;
+}
+
+.article .image {
+  width: 100% !important;
+  height: auto !important;
+}
+
+
+
+#article-top .image {
+  height: auto;
+  max-height: 250px;
+}
+
+
+
+.modal-content {
+  width: 95%;
+  max-height: 90vh;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.modal-scroll {
+  padding: 10px;
+  padding-right: 10px;
+}
+
+#modal-image {
+  height: auto;
+  max-height: 250px;
+}
+
+#modal-title {
+  font-size: 22px;
+}
+
+#modal-description {
+  font-size: 16px;
+}
+
+#close-modal {
+  top: 15px;
+  right: 15px;
+  font-size: 22px;
+}
 
 }
