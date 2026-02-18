@@ -4,21 +4,23 @@ body {
                "Helvetica Neue", Arial,
                sans-serif;
 
-               padding-top: 140px;
+               padding-top: 150px;
 
                background-color: rgb(240, 239, 239);
 }
 .header {
    position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+  top: 10px;
+  left: 10px;
+  right: 20px;
    min-height: 140px;
   height: auto;
   padding-bottom: 10px;
 
   background-color: rgb(248, 249, 250);    
   border-bottom: 1px solid #e0e0e0;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
 
   
 
@@ -42,7 +44,7 @@ body {
 {
     font-size: 40px;
     font-weight: 300;
-   color: #f57c00;
+    color: #f57c00;
     margin-left: 10px;
     
 }
@@ -101,6 +103,7 @@ body {
     color: rgba(0, 0, 0, 0.675);
     font-size: 20px;
     font-weight:400;
+    justify-content:center;
    
 }
 
@@ -506,13 +509,13 @@ body.dark-mode #close-modal {
 }
 
 body.dark-mode {
-  background-color: #121212;
+   background-color:#000000;
   color: white;
 }
 
 body.dark-mode .header {
   background-color: #1a1a1a;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #000000;
 }
 
 body.dark-mode .main {
@@ -522,7 +525,7 @@ body.dark-mode .main {
 body.dark-mode #article-top,
 body.dark-mode .article,
 body.dark-mode #picks-for-you .article {
-  background-color: #1f1f1f;
+  background-color: #000000;
   box-shadow: none;
 }
 
@@ -610,7 +613,7 @@ body.dark-mode #part13-button {
 
 
 body {
- padding-top: 60px;
+ padding-top: 110px;
 }
 
 
@@ -618,6 +621,10 @@ body {
 .header {
   min-height: auto;
   padding-bottom: 15px;
+  left: 0px;
+  right: 0px;
+  top: -1px;
+  border-radius: none !important;
 }
 
 #part1 {
@@ -643,6 +650,7 @@ body {
   width: 100%;
   max-width: 100%;
   font-size: 16px;
+  background-color: white;
 }
 
 #part13 {
@@ -657,6 +665,7 @@ body {
   gap: 12px;
   font-size: 14px;
   justify-content: center;
+  display:none;
 }
 
 
@@ -773,6 +782,7 @@ body {
   }
 
   .header {
+    border-radius: none !important;
     background-color: #1a1a1a;
     border-bottom: 1px solid #000000;
   }
